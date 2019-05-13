@@ -1,0 +1,2 @@
+def alarm_clock(day, vacation):
+    return 'off' if (day == 0 or day == 6) and vacation else '10:00' if (day == 0 or day == 6) or vacation else '7:00'
