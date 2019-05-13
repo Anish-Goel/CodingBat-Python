@@ -1,0 +1,2 @@
+def no_teen_sum(a, b, c):
+  return (0 if a in range(13,20) and a != 15 and a != 16 else a) + (0 if b in range(13,20) and b != 15 and b != 16 else b) + (0 if c in range(13,20) and c != 15 and c != 16 else c)
